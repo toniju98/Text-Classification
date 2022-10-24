@@ -1,0 +1,176 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>load_data &#8212; Topic Classification News2Go  documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Welcome to Topic Classification News2Go’s documentation!" href="index.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="module-load_data">
+<span id="load-data"></span><h1>load_data<a class="headerlink" href="#module-load_data" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="load_data.get_alljsonfrompath">
+<code class="sig-prename descclassname">load_data.</code><code class="sig-name descname">get_alljsonfrompath</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#load_data.get_alljsonfrompath" title="Permalink to this definition">¶</a></dt>
+<dd><p>gets list of paths from all jsons in a directory</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path of the directory</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>list of all json paths</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="load_data.other_data">
+<code class="sig-prename descclassname">load_data.</code><code class="sig-name descname">other_data</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#load_data.other_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>reading other data from other api</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path, where the files are</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>data</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="load_data.read_data">
+<code class="sig-prename descclassname">load_data.</code><code class="sig-name descname">read_data</code><span class="sig-paren">(</span><em class="sig-param">data1</em>, <em class="sig-param">data2</em><span class="sig-paren">)</span><a class="headerlink" href="#load_data.read_data" title="Permalink to this definition">¶</a></dt>
+<dd><p>loads data from files in a dataframe</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path, where the files are</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>data, pd.Dataframe with the whole data in it</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="load_data.reading_data_day">
+<code class="sig-prename descclassname">load_data.</code><code class="sig-name descname">reading_data_day</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#load_data.reading_data_day" title="Permalink to this definition">¶</a></dt>
+<dd><p>reading spiegel data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path, where the files are</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>spiegel data</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="load_data.reading_data_week">
+<code class="sig-prename descclassname">load_data.</code><code class="sig-name descname">reading_data_week</code><span class="sig-paren">(</span><em class="sig-param">path</em><span class="sig-paren">)</span><a class="headerlink" href="#load_data.reading_data_week" title="Permalink to this definition">¶</a></dt>
+<dd><p>reading sz data</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>path</strong> – path, where the files are</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>sz data</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Topic Classification News2Go</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">load_data</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="index.html" title="previous chapter">Welcome to Topic Classification News2Go’s documentation!</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Antonio Juric.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/module1.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

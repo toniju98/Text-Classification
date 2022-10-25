@@ -16,7 +16,6 @@ class CleaningData:
     def __init__(self, data):
         self.data = data
 
-    # TODO: adapt for our data
     def get_nouns_list(self):
         """creates a list with the noun strings of each article and adds a new column to the data
 

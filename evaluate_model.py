@@ -14,6 +14,7 @@ class EvaluationModel:
     """class for evaluating training model
 
     """
+
     def __init__(self, data, topic):
         self.data = data
         self.topic = topic
@@ -29,9 +30,9 @@ class EvaluationModel:
         print(metrics.confusion_matrix(test_target, predicted))
         print(metrics.classification_report(test_target, predicted))
         print(cross_validate(self.get_pipeline(), self.data['text'],
-                       self.data[self.topic],
-                       scoring=['precision_macro', 'recall_macro'],
-                       cv=5, return_train_score=False))
+                             self.data[self.topic],
+                             scoring=['precision_macro', 'recall_macro'],
+                             cv=5, return_train_score=False))
 
     # TODO: right implementation
     def grid_search(self):

@@ -3,15 +3,17 @@ import os
 import json
 
 
-def read_data(data1, data2):
+def read_data(path):
     """loads data from files in a dataframe
 
     :param path: path, where the files are
     :return: data, pd.Dataframe with the whole data in it
     """
-    data = pd.concat([data1, data2], ignore_index=True)
-    data[['url', 'topic', 'headline', 'summary', 'date', 'text']] = data[
-        ['url', 'topic', 'headline', 'summary', 'date', 'text']].astype('str')
+    json_paths = get_alljsonfrompath(path)
+    data = pd.DataFrame()
+    for path in json_paths:
+        df = pd.read_json(path)
+        data = pd.concat([data, df], ignore_index=True)
     return data
 
 

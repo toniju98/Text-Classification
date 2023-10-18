@@ -1,69 +1,53 @@
-# Text-Classification
+# Text Classification Project
 
-> This project shows a text classification. It works with news articles and predicts their categories. It's an supervised learning task.
-
+> This project focuses on text classification, using news articles to predict their categories. It is a supervised learning task.
 
 ## Table of Contents
-* [General Info](#general-information)
-* [Technologies Used](#technologies-used)
-* [Features](#features)
-* [Screenshots](#screenshots)
-* [Setup](#setup)
-* [Project Status](#project-status)
-* [Room for Improvement](#room-for-improvement)
-* [Acknowledgements](#acknowledgements)
-* [Contact](#contact)
-
+- [General Information](#general-information)
+- [Technologies Used](#technologies-used)
+- [Key Features](#key-features)
+- [Screenshots](#screenshots)
+- [Setup](#setup)
+- [Project Status](#project-status)
+- [Room for Improvement](#room-for-improvement)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
 ## General Information
-We work with text data. The process is the same like with other machine learning tasks. You first need to read in the data. The datafiles are .json files with news articles. After reading in the files to a dataframe you start to clean the data. Therefore we use spacy. For example there will be lowercased all articles and it will be reduced to nouns.
-The reason is that to get the category of a text, the most meaning we get through nouns. After cleaning the data, the data will be vectorized to use it for machine learning. Therefore there is use the TFIDF-Vectorizer. 
-After vectorizing the data the model will be trained. Therefore there can be tested many different models. After that the classification performance is evaluated.
+In this project, we handle text data, following the typical workflow of many machine learning tasks. The initial step involves reading in data from .json files containing news articles. Once the data is loaded into a dataframe, the cleaning process begins, utilizing Spacy. This includes tasks like lowercasing all articles and reducing them to nouns, as nouns tend to convey the most meaning when categorizing text. Following data cleaning, it undergoes vectorization for machine learning, with the TF-IDF Vectorizer being employed. Subsequently, the data is used to train a machine learning model, offering the flexibility to test various models. The classification performance is then assessed.
 
 ## Technologies Used
 - Python
 - Spacy
-- sklearn
+- scikit-learn
 
-
-## Features
-
-- loading .json articles
-- clean data
-- predict news categories
-
+## Key Features
+- Loading .json articles
+- Data cleaning
+- Predicting news categories
 
 ## Screenshots
-
-
-
+(Add relevant screenshots here)
 
 ## Setup
-
-You can run it with the command: python main.py
-
+You can run the project using the following command: python main.py
 
 
 ## Project Status
-Project is: _complete_
-
-
-
+Project Status: _Complete_
 
 ## Room for Improvement
+Opportunities for improvement:
+- Implement new machine learning models
+- Explore optimization techniques
 
-Room for improvement:
-- new models
-- other optimizations
-
-To do:
-- Update the html tags
-
+To-Do:
+- Update HTML tags
 
 ## Acknowledgements
-- This project was an college project in 2020
-
-
+- This project was originally a college project in 2020.
 
 ## Contact
-Created by [@toniju98](https://github.com/toniju98) - feel free to contact me!
+Created by [toniju98](https://github.com/toniju98) - Feel free to contact me!
+
+
